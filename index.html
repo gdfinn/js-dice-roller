@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="dicenumber">Die Amount:</label>
+    <input
+      type="number"
+      id="dicenumber"
+      placeholder="Enter a number"
+      required
+    />
+    <br />
+    <label for="dicesides">Die Sides: &nbsp; &nbsp;</label>
+    <input
+      type="number"
+      id="dicesides"
+      placeholder="Enter a number"
+      required
+      value="6"
+    />
+    <br />
+    <br />
+    <button id="roll-button" type="button">Roll!</button>
+    <p>Total: <span id="total">0</span></p>
+    <button id="all-rolls-button" type="button">Show All Rolls</button>
+    <button id="reset-button" type="button">Reset</button>
+    <ul id="roll-list"></ul>
+    <script src="main.js"></script>
+  </body>
+</html>
